@@ -130,13 +130,10 @@ public abstract class MessageAPI {
 	}
 	
 	public void helpEntry(CommandSender sender, String command, String[] args, String desc_lang_key) throws TranslationNotFoundException {
-		String args_txt = StringUtils.join(args, " ");
-		if (args_txt.length() > 0) args_txt = " " + args_txt;
-		
 		this.send(sender,
 			this.translation.getTranslation("help.entry", new String[] {
 				"command",	command,
-				"args",		args_txt.toString(),
+				"args",		StringUtils.join(args, " "),
 				"desc",		this.translation.getTranslation(desc_lang_key)		
 			}),
 			false
