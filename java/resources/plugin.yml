@@ -2,6 +2,6 @@ author: d1rty
 description: MessageAPI Plugin (d1rty Version)
 main: org.lichtspiele.MessageAPI.MessageAPIPlugin
 name: MessageAPI
-version: '1.0'
+version: "${project.version}"
 depend:
   - CustomConfigurationFileAPI

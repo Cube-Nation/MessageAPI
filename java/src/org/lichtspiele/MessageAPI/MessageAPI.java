@@ -2,7 +2,7 @@ package org.lichtspiele.MessageAPI;
 
 import org.apache.commons.lang.StringUtils;
 import org.bukkit.command.CommandSender;
-import org.bukkit.craftbukkit.v1_8_R1.command.ColouredConsoleSender;
+import org.bukkit.craftbukkit.v1_8_R2.command.ColouredConsoleSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.ChatColor;
